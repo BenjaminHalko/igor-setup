@@ -137396,9 +137396,9 @@ class IgorSetup {
         this.devicesSettingsFile = devicesSettingsFile;
         this.igorExecutable = "";
         this.userName = "tempUser";
-        this.bootstrapperDir = external_path_default().resolve("bootstrapper");
+        this.bootstrapperDir = __nccwpck_require__.ab + "bootstrapper";
         this.runtimeDir = external_path_default().resolve("runtimes");
-        this.workingDir = external_path_default().resolve("gm-sandbox");
+        this.workingDir = __nccwpck_require__.ab + "gm-sandbox";
         this.userDir = "";
         this.targetRuntimeDir = "";
         this.targetModules = [];
