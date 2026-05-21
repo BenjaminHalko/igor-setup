@@ -1,5 +1,33 @@
 # Changelog
 
+## [1.4.0](https://github.com/BenjaminHalko/igor-setup/compare/v1.3.0...v1.4.0) (2026-05-21)
+
+
+### Features
+
+* add support for gamemaker lts 2026 ([e556ef2](https://github.com/BenjaminHalko/igor-setup/commit/e556ef29c4a729b145558d5be807ccd11cae66e7))
+* Add the `cache` option to cache runtime for future runs. ([79ff185](https://github.com/BenjaminHalko/igor-setup/commit/79ff18539a93ab4c33b4c29c6e6f6b03bc9bda4c))
+* Added support for Nintendo Switch. ([9cbb694](https://github.com/BenjaminHalko/igor-setup/commit/9cbb69488d53bc00b18f6652d7d3bda3269f1abc))
+* Added support for specifying OperaGX SDK path. ([921db4c](https://github.com/BenjaminHalko/igor-setup/commit/921db4c058d14e1692ddcb251bebde3947f24ac5))
+* Added support for the input `module` as an aliase for `modules`. [#5](https://github.com/BenjaminHalko/igor-setup/issues/5) ([5e6436a](https://github.com/BenjaminHalko/igor-setup/commit/5e6436af6b07cf6d674236d40e456a22a0ca5247))
+* Added support for Xbox. ([56fe2b0](https://github.com/BenjaminHalko/igor-setup/commit/56fe2b0b30b21dfc98b7cfff80529585d7435a19))
+* Added the field "machine.Platform Settings.macOS.suppress_build" for local settings. ([f49181f](https://github.com/BenjaminHalko/igor-setup/commit/f49181f005472bd1a88afdb6d6db63a993e8ef2e))
+* Allow specifying both runtime-version and target-yyp, but runtime-version will take precedence. ([130ab74](https://github.com/BenjaminHalko/igor-setup/commit/130ab743967e30df05ae50f6d51cd1e1817bde26))
+* support visual studio 2026 ([049d159](https://github.com/BenjaminHalko/igor-setup/commit/049d1593f69dd1f58e5254ce1fe3db4c5bf5f91f))
+
+
+### Bug Fixes
+
+* Boot strapper failing to install could stall the run. ([c18ebf3](https://github.com/BenjaminHalko/igor-setup/commit/c18ebf32d07b3655a1f586a38cb527d91e4443ea))
+* Caching failing due to @actions/cache being outdated. ([87bd111](https://github.com/BenjaminHalko/igor-setup/commit/87bd11183ed011fa699198a4b73d50a32556dfdf))
+* Dependency updates ([5d0bff2](https://github.com/BenjaminHalko/igor-setup/commit/5d0bff2c6305cc68db42f3c734873732452a019e))
+* Log error message when the action fails. ([f3fca68](https://github.com/BenjaminHalko/igor-setup/commit/f3fca68be6cc23bd3031ae83089431eb4eef6512)), closes [#7](https://github.com/BenjaminHalko/igor-setup/issues/7)
+* Looking up runtime version from the YYP file should account for whitespace in the `IDEVersion` field. ([f3fca68](https://github.com/BenjaminHalko/igor-setup/commit/f3fca68be6cc23bd3031ae83089431eb4eef6512))
+* Now accommodates the new Igor bootstrapper file structure. ([2cb075f](https://github.com/BenjaminHalko/igor-setup/commit/2cb075f7865fce1960817594c59d259378d0d2c0))
+* Should be able to handle the legacy and new file structure on Windows. ([e1c30a3](https://github.com/BenjaminHalko/igor-setup/commit/e1c30a360f7e0906f3c0e469a302dc544edabc6c))
+* use email for user folder ([a3a169c](https://github.com/BenjaminHalko/igor-setup/commit/a3a169ca9d4cf144afb047ff376cd1f82f33af35))
+* Xboxone module should install Xbox Series XS module instead. ([f252798](https://github.com/BenjaminHalko/igor-setup/commit/f252798b94c46d534a1c43c9fc9fed086c05c561))
+
 ## [1.3.0](https://github.com/bscotch/igor-setup/compare/v1.2.1...v1.3.0) (2026-01-06)
 
 
